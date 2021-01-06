@@ -17,10 +17,11 @@ A bunch of build files will also be generated in the build directory.
 
 
 3. Serve
-Serve the compiled code on localhost:3000
 ```
 npm run dev
 ```
+This will serve the compiled code on localhost:3000. Using inspector, you should see a "Hello World" message from c++ in the console, confirming that the c++ code is being executed. Furhtermore, pressing the button should call the c++ function `myFunction`.
+
 
 4. Develop
 - index.js is the entry point for node.js
