@@ -5,7 +5,7 @@ This is a minimal example of a Web Assembly C++ project built with emscripten CM
 1. Install
 - Get the Emscripten SDK, using these [instructions](https://emscripten.org/docs/getting_started/downloads.html)) or just `brew install emscripten` if you're on mac.
 - Install node.js and npm
-- `npm install`
+- Install the npm packages needed for this project using `npm install`
 
 2. Compile
 ```
