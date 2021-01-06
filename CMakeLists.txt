@@ -2,7 +2,6 @@ project (client)
 cmake_minimum_required(VERSION 3.5.1)
 
 add_definitions(-std=c++11 -O3)
-#include_directories(include)
 
 file(GLOB SOURCES src/*.cpp)
 
