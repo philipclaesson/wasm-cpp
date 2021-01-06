@@ -1,6 +1,6 @@
-## Web Assembly C/C++ minimal example
+## Web Assembly C/C++ with CMAKE minimal example
 
-This is a minimal example of a Web Assembly C++ project build with emscriptem CMAKE and served with node.js.
+This is a minimal example of a Web Assembly C++ project build with emscriptem CMAKE and served with node.js. This example was put together by Philip Claesson, and is partly based on [this gist](https://gist.github.com/WesThorburn/00c47b267a0e8c8431e06b14997778e4). 
 
 1. Install
 - Get the Emscripten SDK, using these [instructions](https://emscripten.org/docs/getting_started/downloads.html)) or just `brew install emscripten` if you're on mac.
