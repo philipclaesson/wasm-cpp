@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<script>
+			!function(e, t){
+				var n = "app.wasm.js";
+				var o = t.createElement("script");
+				o.async = !0, o.type = "text/javascript", o.src = n, o.onerror = function(t) {
+					console.error("Script Error"), console.error(t), setTimeout(function() {
+						e.location.reload(!0)
+					}, 3e3)
+				};
+				var r = t.getElementsByTagName("script")[0];
+				r.parentNode.insertBefore(o, r)
+			}(window, document);
+		</script>
+	    <button class="mybutton">Run myFunction</button>
+	    <script type="text/javascript" src="./bindings.js"></script>
+	    <script type='text/javascript'>
+	      document.querySelector('.mybutton')
+	        .addEventListener('click', () => {
+	        	myFunction(Module)
+	        })
+	    </script>
+	</body>
+</html>
